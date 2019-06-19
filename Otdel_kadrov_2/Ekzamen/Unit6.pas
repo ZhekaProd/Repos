@@ -61,7 +61,7 @@ end;
 
 procedure TForm6.РедактироватьClick(Sender: TObject);
 begin
-Form1.ShowModal;
+Form8.ShowModal;
 end;
 
 end.

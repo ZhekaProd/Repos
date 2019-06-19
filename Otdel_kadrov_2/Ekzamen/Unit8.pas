@@ -39,9 +39,11 @@ type
     DBLookupComboBox1: TDBLookupComboBox;
     Label11: TLabel;
     DBEdit11: TDBEdit;
+    Button4: TButton;
     procedure Button2Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -75,6 +77,11 @@ end;
 procedure TForm8.Button3Click(Sender: TObject);
 begin
 Close;
+end;
+
+procedure TForm8.Button4Click(Sender: TObject);
+begin
+ DataModule2.ADOTable4.delete;
 end;
 
 end.

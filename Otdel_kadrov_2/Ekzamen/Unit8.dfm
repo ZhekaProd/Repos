@@ -132,8 +132,8 @@ object Form8: TForm8
       TabOrder = 5
     end
     object DBEdit7: TDBEdit
-      Left = 99
-      Top = 111
+      Left = 101
+      Top = 109
       Width = 121
       Height = 21
       DataField = #1054#1073#1088#1072#1079#1086#1074#1072#1085#1080#1077
@@ -186,6 +186,7 @@ object Form8: TForm8
       Height = 21
       DataField = #1053#1072#1079#1074#1072#1085#1080#1077'_'#1087#1086#1076#1088#1072#1079#1076#1077#1083#1077#1085#1080#1103
       DataSource = DataModule2.DataSource1
+      ReadOnly = True
       TabOrder = 0
     end
     object DBEdit10: TDBEdit
@@ -195,6 +196,7 @@ object Form8: TForm8
       Height = 21
       DataField = #1057#1083#1091#1078#1077#1073#1085#1099#1081' '#1090#1077#1083#1077#1092#1086#1085
       DataSource = DataModule2.DataSource1
+      ReadOnly = True
       TabOrder = 1
     end
     object DBLookupComboBox1: TDBLookupComboBox
@@ -214,6 +216,7 @@ object Form8: TForm8
       Height = 21
       DataField = #1050#1086#1076'_'#1087#1086#1076#1088#1072#1079#1076#1077#1083#1077#1085#1080#1103
       DataSource = DataModule2.DataSource1
+      ReadOnly = True
       TabOrder = 3
     end
   end
@@ -225,16 +228,16 @@ object Form8: TForm8
     Align = alBottom
     TabOrder = 2
     object Button1: TButton
-      Left = 162
+      Left = 146
       Top = 7
-      Width = 112
+      Width = 63
       Height = 25
       Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
       TabOrder = 0
       OnClick = Button1Click
     end
     object Button2: TButton
-      Left = 24
+      Left = 8
       Top = 7
       Width = 132
       Height = 25
@@ -259,6 +262,15 @@ object Form8: TForm8
       DataSource = DataModule2.DataSource4
       VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
       TabOrder = 3
+    end
+    object Button4: TButton
+      Left = 215
+      Top = 8
+      Width = 59
+      Height = 25
+      Caption = #1059#1076#1072#1083#1080#1090#1100
+      TabOrder = 4
+      OnClick = Button4Click
     end
   end
 end
